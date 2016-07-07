@@ -4,6 +4,7 @@ import static java.lang.Double.parseDouble;
 import static java.lang.Integer.parseInt;
 import java.util.Scanner;
 
+
 public class OVCalc {
 
     public static void main(String[] args){
@@ -61,5 +62,6 @@ public class OVCalc {
         double ans = ((a*78.5)/100)*y;
         System.out.println("After taxes for "+y+" year(s) making $"+a+" a year, you will have: $"+ans);
     }
+    
 
 }
