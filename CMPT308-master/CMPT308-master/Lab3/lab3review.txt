@@ -1,0 +1,86 @@
+8 pts
+
+1. List the ordno and dollars of all orders.
+
+Incorrect SQL statement
+- Your query has incorrect syntax, you have two selects? why?
+ERROR:  syntax error at or near "select"
+LINE 1:  select ordno, dollars select * from orders
+
+
+2. List the name and city of agents named Smith.
+
+Incorrect output
+- You are giving, [city,name] but you were asked to give [name,city]
+Correct SQL statement
+SQL statement is readable
+
+
+3. List the pid, name, and priceUSD of products with quantity more than
+208,000.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+4. List the names and cities of customers in Dallas.
+
+Incorrect output
+- You are giving, [city,name] but you were asked to give [name,city]
+- You are querying the wrong table!
+Correct SQL statement
+SQL statement is readable
+
+
+5. List the names of agents not in New York and not in Tokyo.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+6. List all data for products not in Dallas or Duluth that cost US$1 or more.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+7. List all data for orders in January or March.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+8. List all data for orders in February less than US$500.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+9. List all orders from the customer whose cid is C005.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+In general: 
+
+- Be careful with the way you are using parenthesis. They were not
+strictly necessary for this lab. Use them only if necessary or if it helps with
+the organization of the SQL statement.
+
+- Test all your SQL statements.
+
+- Make sure you read all the instructions for queries really well.
+
+- PLEASE only include your queries! You included a lot of other things. You
+  droped my tables when I ran your file! I am a bit upset about that.
+
+
+
+- Dr. Rivas
