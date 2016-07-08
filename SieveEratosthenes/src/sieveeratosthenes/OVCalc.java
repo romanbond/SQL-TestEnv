@@ -64,5 +64,25 @@ public class OVCalc {
     }
     
     //Add mutal here
+    //Roman Bond
+        //CONVERT THIS TO JAVA
+//Inital Prompt
+/*
+var deposit0 = prompt("Please enter the amount you will deposit:", "Initial Deposit Amount Here");
+var maxamount0 = prompt("PLease enter the desired withdraw amount:", " End Withdraw Amount Here");
+var deposit = parseInt(deposit0);
+var maxamount = parseInt(maxamount0);
 
+alert(deposit + " - " + maxamount);
+
+
+//Calculation
+var years = 0;
+for (var money = deposit; money < maxamount; money += OneYearDiv){
+    var OneYearDiv = money * 0.10;
+    years++;
+}
+money = Math.round(money);
+alert("Number of Years: " + years + "    Amount: " + money);
+*/
 }
