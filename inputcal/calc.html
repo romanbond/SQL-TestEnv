@@ -4,25 +4,39 @@
 <script type="text/javascript" src="calc.js"></script>
 </head>
 <body>
-<h1>Dev Branch</h1>
+<h1>Dev Cal</h1>
 <form>
       First Number: <input type="text" name="number1"
-id="numEntry1"><br>
+id="numEntry1"><br><br>
+
+<select>
+    <option value=""> Please select a method </option>
+    <option value="plus" name="operatorRadio">plus</option>
+    <option value="minus" name="operatorRadio">minus</option>
+    <option value="multi" name="operatorRadio">multi</option>
+    <option value="divide" name="operatorRadio">divide</option>
+</select>
+
+        <!--
       <input type="radio"name="operatorRadio"
-value="plus">+<br>
+value="plus">+
       <input type="radio"name="operatorRadio"
-value="minus">-<br>
+value="minus">-
       <input type="radio"name="operatorRadio"
-value="multi">*<br>
+value="multi">*
       <input type="radio"name="operatorRadio"
-value="divide">/<br>
+value="divide">/
+
+--><br><br>
       Second Number: <input type="text" name="number2"
 id="numEntry2"><br>
       <input id="eval" type="button" value="Evaluate"
 onclick="evaluateId();"/>
 </form>
-                Result: <input type="text" name="result"
+<!--
+Result: <input type="text" name="result"
 id="result"><br>
+-->
 
 </body>
 </html>
