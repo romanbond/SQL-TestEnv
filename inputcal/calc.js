@@ -5,9 +5,6 @@ function evaluateId(){
     num2 = parseInt(document.getElementById("numEntry2").value);
 
     var operator = document.getElementsByName('operatorRadio');
-	//if(op_value == "plus")
-	//	num3 = num1+num2;
-
 
     var op_value;
     for(var i = 0; i < operator.length; i++){
@@ -23,11 +20,5 @@ function evaluateId(){
         num3 = num1*num2;
     if(op_value== "divide")
         num3 = num1/num2;
-
    alert(num3);
-
-    //document.getElementById("result").value = num3;
-    //num1 = num3;
-    //num3 = 0;
-    //document.getElementById("numEntry1").value = num1;
 }
