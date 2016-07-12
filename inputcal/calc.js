@@ -8,14 +8,10 @@ function evaluateId(){
 	//if(op_value == "plus")
 	//	num3 = num1+num2;
 
-	var op_value = operator.value;
 
-
-	alert(operator)
-	/*
     var op_value;
     for(var i = 0; i < operator.length; i++){
-        if(operator[i].selected){
+        if(operator[i].checked){
             op_value = operator[i].value;
         }
     }
@@ -29,9 +25,9 @@ function evaluateId(){
         num3 = num1/num2;
 
    alert(num3);
-   */
-    document.getElementById("result").value = num3;
-    num1 = num3;
-    num3 = 0;
-    document.getElementById("numEntry1").value = num1;
+
+    //document.getElementById("result").value = num3;
+    //num1 = num3;
+    //num3 = 0;
+    //document.getElementById("numEntry1").value = num1;
 }
