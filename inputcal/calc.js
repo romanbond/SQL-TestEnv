@@ -1,11 +1,12 @@
-var num1, num2, num3, operator;
+var num1, num2, operator;
 
 function evaluateId(){
     //num1 = parseInt(document.getElementById("numEntry1").value);
     //num2 = parseInt(document.getElementById("numEntry2").value);
 
     var operator = document.getElementsByName('operatorRadio');
-
+	var slel = document.getElementById('sel').value;
+	alert(slel)
     var op_value;
     for(var i = 0; i < operator.length; i++){
         if(operator[i].checked){
@@ -14,28 +15,18 @@ function evaluateId(){
     }
     if(op_value == "M")
         MutualFund()
-    if(op_value == "minus")
+    if(op_value == "SK")
         num3 = num1-num2;
-    if(op_value== "multi")
+    if(op_value== "W")
         num3 = num1*num2;
-    if(op_value== "divide")
+    if(op_value== "//")
         num3 = num1/num2;
    //alert(num3);
 }
 
-
-
 	var MutualFund = function(){
 	//Inital Prompt
 	alert("connect")
-/*
-	var deposit0 = prompt("Please enter the amount you will deposit:", "Initial Deposit Amount Here");
-	var maxamount0 = prompt("PLease enter the desired withdraw amount:", " End Withdraw Amount Here");
-	var deposit = parseInt(deposit0);
-	var maxamount = parseInt(maxamount0);
-
-	alert(deposit + " - " + maxamount);
-*/
 	//Calculation
 		var deposit = parseInt(document.getElementById("numEntry1").value);
 		var maxamount = parseInt(document.getElementById("numEntry2").value);

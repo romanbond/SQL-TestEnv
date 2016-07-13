@@ -6,12 +6,18 @@
 <body>
 <h1>Dev Cal</h1>
 <form>
-      _: <input type="text" name="number1"id="numEntry1"><br><br>
-      <input type="radio"name="operatorRadio"value="M">+
-      <input type="radio"name="operatorRadio"value="minus">-
-      <input type="radio"name="operatorRadio"value="multi">*
-      <input type="radio"name="operatorRadio"value="divide">/<br><br>
-      _: <input type="text" name="number2"id="numEntry2"><br><br>
+      <input type="text" name="number1"id="numEntry1"placeholder='Enter Value 1'><br><br>
+      <input type="radio"name="operatorRadio"value="M">M
+      <input type="radio"name="operatorRadio"value="SK">SK
+      <input type="radio"name="operatorRadio"value="W">W
+      <input type="radio"name="operatorRadio"value="//">//<br><br>
+      <input type="text" name="number2"id="numEntry2"placeholder='Enter Value 2'><br><br>
+      <select id="sel">
+    <option value="car">1</option>
+    <option value="bike">2</option>
+    <option value="cycle">3</option>
+
+</select>
       <input id="eval" type="button" value="Evaluate" onclick="evaluateId()"/>
 </form>
 </body>
