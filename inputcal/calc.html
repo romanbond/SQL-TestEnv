@@ -1,4 +1,5 @@
 <!DOCTYPE hmtl>
+<title>Dev Cal</title>
 <head>
 <link rel="stylesheet" type="text/css" href="index.css">
 <script type="text/javascript" src="calc.js"></script>
@@ -7,18 +8,23 @@
 <h1>Dev Cal</h1>
 <form>
       <input type="text" name="number1"id="numEntry1"placeholder='Enter Value 1'><br><br>
-      <input type="radio"name="operatorRadio"value="M">M
+      <!--<input type="radio"name="operatorRadio"value="M">M
       <input type="radio"name="operatorRadio"value="SK">SK
       <input type="radio"name="operatorRadio"value="W">W
-      <input type="radio"name="operatorRadio"value="//">//<br><br>
+      <input type="radio"name="operatorRadio"value="//">//<br><br>-->
       <input type="text" name="number2"id="numEntry2"placeholder='Enter Value 2'><br><br>
-      <select id="sel">
-    <option value="car">1</option>
-    <option value="bike">2</option>
-    <option value="cycle">3</option>
-
+<select id="selection">
+    <option value="NodeS">NodeS</option>
+    <option value="Split">Split</option>
+    <option value="Fund">Fund</option>
 </select>
-      <input id="eval" type="button" value="Evaluate" onclick="evaluateId()"/>
+      <input id="eval" type="button" value="Evaluate" onclick="startId()"/><br>
+      <br>Result:<br>
+      <p id="resultPlacement1"></p>
+      <p id="resultPlacement2"></p>
+      <p id="resultPlacement3"></p>
+      <p id="resultPlacement4"></p>
+      <p id="resultPlacement5"></p>
 </form>
 </body>
 </html>
