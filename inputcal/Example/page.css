@@ -27,7 +27,7 @@
 	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff8B92A8', endColorstr='#ffF6E0CB', GradientType=0);
 	border-bottom: 1px solid #BDC0CA;
 	border-top: 1px solid #BDC0CA;
-	height: 450px;
+	height: 250px;
 	position: relative;
 }
 
@@ -43,6 +43,21 @@
 	bottom: 0;
 	height: 218px;
 }
+
+div { background-color: red; }
+.light {
+  opacity: 0.2; /* Barely see the text over the background */
+}
+.medium {
+  opacity: 0.5; /* See the text more clearly over the background */
+}
+.heavy {
+  opacity: 0.9; /* See the text very clearly over the background */
+}
+.superheavy {
+  opacity: 2.0; /* See the text very clearly over the background */
+}
+
 
 .footer {
 	color: #9B9DA7;

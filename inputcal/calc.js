@@ -22,7 +22,7 @@ function startId(){
         num3 = num1-num2;
     if(selectionVar == "NodeS")
         num3 = num1*num2;
-   //alert(num3);
+   	//alert(num3);
 }
 
 	var MutualFund = function(){
