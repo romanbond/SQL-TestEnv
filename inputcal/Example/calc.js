@@ -21,7 +21,7 @@ function startId(){
     if(selectionVar == "Split")
         num3 = num1-num2;
     if(selectionVar == "NodeS")
-        nodeS()
+        num3 = num1*num2;
    //alert(num3);
 }
 
@@ -42,7 +42,7 @@ function startId(){
     		years++;
 		}
 		money = Math.round(money);
-		document.getElementById("resultPlacement3").innerHTML = ("Years: " + years + "  -  Amount: " + money);
+		document.getElementById("resultPlacement3").innerHTML = ("Number of Years: " + years + "    Amount: " + money);
 		//alert("Number of Years: " + years + "    Amount: " + money);
 	}
 

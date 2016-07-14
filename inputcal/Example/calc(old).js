@@ -16,12 +16,13 @@ function startId(){
             op_value = operator[i].value;
         }
     }*/
-	if(selectionVar == "NodeS")
-		NodeS()
-    if(selectionVar == "TARs")
-        TARs()
-	if(selectionVar === "Fund")
-	    MutualFund()
+    if(selectionVar === "Fund")
+        MutualFund()
+    if(selectionVar == "Split")
+        num3 = num1-num2;
+    if(selectionVar == "NodeS")
+        nodeS()
+   //alert(num3);
 }
 
 	var MutualFund = function(){
@@ -41,11 +42,11 @@ function startId(){
     		years++;
 		}
 		money = Math.round(money);
-		document.getElementById("resultPlacement3").innerHTML = ("Number of Years: " + years + "    Amount: " + money);
+		document.getElementById("resultPlacement3").innerHTML = ("Years: " + years + "  -  Amount: " + money);
 		//alert("Number of Years: " + years + "    Amount: " + money);
 	}
 
-/*
+
 	var RowingCalc = function(){
 
 var splitCal = function () {
@@ -98,4 +99,4 @@ var splitCal = function () {
     }
 
 }
-}*/
+}
