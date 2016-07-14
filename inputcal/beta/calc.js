@@ -9,13 +9,14 @@ function startId(){
     if(selectionVar === "Fund")
         MutualFund()
     if(selectionVar == "TARs")
-        alert("Not a vaild choice")
+        TARs()
 
 }
-
-
+var TARs = function(){
+	document.getElementById("resultPlacement1").innerHTML = ("Successful Connection aka You checked.")
+}
 var NodeS = function(){
-	alert("Good Connection")
+	document.getElementById("resultPlacement1").innerHTML = ("Successful Connection")
 }
 
 var MutualFund = function(){
