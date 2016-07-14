@@ -16,14 +16,25 @@ h1 {
     text-decoration: none;
 }
 c1{
-	color: #1272DB;
-	font-size: 34px;
+    /* #1272DB */
+    	color: #1684FB;
+	font-size: 90px;
     text-decoration: none;
 }
+
+c2{
+    /* Dash Color */
+    	color: #6C737E;
+	font-size: 90px;
+    text-decoration: none;
+}
+
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
-    color: #1272DB;
-	font-size: 34px;
+    /* #1272DB */
+    	color: #1684FB;
+	font-size: 90px;
     text-decoration: none;
 }
+/* Use this for literally everything http://www.colorhunt.co/ */
