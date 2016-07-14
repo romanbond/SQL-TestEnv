@@ -1,4 +1,4 @@
-﻿
+
 /*  #################
  *	### CSS Reset ###
  *  ################# */
@@ -84,7 +84,7 @@ table {
 	-webkit-box-shadow: inset 0px 1px #7b839b;
 	box-shadow: inset 0px 1px #7b839b;
 	background-color: #3C4150;
-	border: 1px solid #181A20;
+	border: 0px solid #181A20;
 	float: left;
 	padding: 6px;
 	width: 184px;

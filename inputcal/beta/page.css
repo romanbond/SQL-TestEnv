@@ -1,4 +1,4 @@
-﻿
+
 
 .body {
 	color: #606471;
@@ -18,19 +18,19 @@
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
 	background-color: #9599AB;
 
-	background-image: -moz-linear-gradient(right bottom,#57BC90 0%,#77C9D4 100%);
-	background-image: -webkit-gradient(linear,right bottom, left top,color-stop(0, #57BC90),color-stop(1, #77C9D4));
-	background: -webkit-linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
-	background: -o-linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
-	background: -ms-linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
-	background: linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
+	background-image: -moz-linear-gradient(right bottom,#2794EB 0%,#6AF79A 100%);
+	background-image: -webkit-gradient(linear,right bottom, left top,color-stop(0, #2794EB),color-stop(1, #6AF79A));
+	background: -webkit-linear-gradient(right bottom, #2794EB 0%, #6AF79A 100%);
+	background: -o-linear-gradient(right bottom, #2794EB 0%, #6AF79A 100%);
+	background: -ms-linear-gradient(right bottom, #2794EB 0%, #6AF79A 100%);
+	background: linear-gradient(right bottom, #2794EB 0%, #6AF79A 100%);
 	background-repeat: repeat-x;
 																											/*							color here is going right(57BC90) ----> left(77C9D4)				*/
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff57BC90', endColorstr='#ff77C9D4', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff2794EB', endColorstr='#ff6AF79A', GradientType=0);
 	/* original color was BDC0CA for both */
 	border-bottom: 3px solid #BDC0CA;
 	border-top: 3px solid #BDC0CA;
-	height: 450px;
+	height: 400px;
 	position: relative;
 }
 /* This is where the calculator out line is */
@@ -44,7 +44,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	height: 350px;
+	height: 320px;
 }
 
 div { background-color: red; }
