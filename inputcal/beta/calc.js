@@ -15,6 +15,8 @@ function startId(){
 var TARs = function(){
 	document.getElementById("resultPlacement1").innerHTML = ("Successful Connection aka You checked.")
 }
+
+//make sure to added similarity feature
 var NodeS = function(){
 	document.getElementById("resultPlacement1").innerHTML = ("Successful Connection")
 	const specialNames = {
