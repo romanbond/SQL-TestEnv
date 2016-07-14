@@ -11,26 +11,29 @@
 	line-height: 140px;
 	text-align: center;
 }
-
+/* This is the body or the colored part */
 .article {
 	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
 	background-color: #9599AB;
-	background-image: -moz-linear-gradient(right bottom,#8B92A8 0%,#F6E0CB 100%);
-	background-image: -webkit-gradient(linear,right bottom, left top,color-stop(0, #8B92A8),color-stop(1, #F6E0CB));
-	background: -webkit-linear-gradient(right bottom, #8B92A8 0%, #F6E0CB 100%);
-	background: -o-linear-gradient(right bottom, #8B92A8 0%, #F6E0CB 100%);
-	background: -ms-linear-gradient(right bottom, #8B92A8 0%, #F6E0CB 100%);
-	background: linear-gradient(right bottom, #8B92A8 0%, #F6E0CB 100%);
+
+	background-image: -moz-linear-gradient(right bottom,#57BC90 0%,#77C9D4 100%);
+	background-image: -webkit-gradient(linear,right bottom, left top,color-stop(0, #57BC90),color-stop(1, #77C9D4));
+	background: -webkit-linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
+	background: -o-linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
+	background: -ms-linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
+	background: linear-gradient(right bottom, #57BC90 0%, #77C9D4 100%);
 	background-repeat: repeat-x;
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff8B92A8', endColorstr='#ffF6E0CB', GradientType=0);
-	border-bottom: 1px solid #BDC0CA;
-	border-top: 1px solid #BDC0CA;
-	height: 250px;
+																											/*							color here is going right(57BC90) ----> left(77C9D4)				*/
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff57BC90', endColorstr='#ff77C9D4', GradientType=0);
+	/* original color was BDC0CA for both */
+	border-bottom: 3px solid #BDC0CA;
+	border-top: 3px solid #BDC0CA;
+	height: 400px;
 	position: relative;
 }
-
+/* This is where the calculator out line is */
 .demo.calculator {
 	-moz-box-shadow: inset 0px 1px #7b839b, 0 2px 5px rgba(0,0,0,.5);
 	-webkit-box-shadow: inset 0px 1px #7b839b, 0 2px 5px rgba(0,0,0,.5);
@@ -41,7 +44,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	height: 218px;
+	height: 350px;
 }
 
 div { background-color: red; }

@@ -1,51 +1,47 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Calculator</title>
-    <link href="page.css" rel="stylesheet" />
-    <link href="../style.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Calculator</title>
+      <link href="page.css" rel="stylesheet" />
+      <link href="../style.css" rel="stylesheet" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 <body class="body">
-    <style>
+      <style>
 
-    </style>
+      </style>
 
-    <header class="header">
-        <h1 class="h1"><span class="bold">NodeS</span> and <span class="bold">TARs</span> JavaScript Calculator</h1>
-    </header>
-    <article class="article">
-        <div class="calculator demo">
-        <script type="text/javascript" src="calc.js"></script>
+      <header class="header">
+            <h1 class="h1"><span class="bold">NodeS</span> and <span class="bold">TARs</span> JavaScript Calculator</h1>
+      </header>
+      <article class="article">
+            <div class="calculator demo">
+                  <script type="text/javascript" src="calc.js"></script>
         <!--
-
         Throw some color in here.
+        //beta color
+        <div class="superheavy"><center>THIS IS A BETA.</center></div>-->
+        <br><font color="white"><h1 class="h1"><center>Dev Cal</center></h1></font><br>
+	  	<form>
+                  <center><input type="text" name="number1"id="numEntry1"placeholder='Enter Value 1'></center><br>
 
+                  <center><input type="text" name="number2"id="numEntry2"placeholder='Enter Value 2'></center><br><br>
+                  <center><select id="selection">
+                        <option value="NodeS">NodeS</option>
+                        <option value="Split">Split</option>
+                        <option value="Fund">Fund</option>
+                  </select>
 
-        -->
-        <div class="superheavy"><center>THIS IS A BETA.</center></div>
-        <br><h1 class="h1">Dev Cal</h1><br>
-        <form>
-              <input type="text" name="number1"id="numEntry1"placeholder='Enter Value 1'><br><br>
-              <!--<input type="radio"name="operatorRadio"value="M">M
-              <input type="radio"name="operatorRadio"value="SK">SK
-              <input type="radio"name="operatorRadio"value="W">W
-              <input type="radio"name="operatorRadio"value="//">//<br><br>-->
-              <input type="text" name="number2"id="numEntry2"placeholder='Enter Value 2'><br><br>
-        <select id="selection">
-            <option value="NodeS">NodeS</option>
-            <option value="Split">Split</option>
-            <option value="Fund">Fund</option>
-        </select>
-              <input id="eval" type="button" value="Evaluate" onclick="startId()"/><br>
-              <br>Result:<br>
-              <p id="resultPlacement1"></p>
-              <p id="resultPlacement2"></p>
-              <p id="resultPlacement3"></p>
-              <p id="resultPlacement4"></p>
-              <p id="resultPlacement5"></p>
-        </form>
-        <!-- //This is the main body where the color is. -->
+			<button id="calculator-button-=" class="u1 button button-blue" onclick="startId()">=</button><br>
+              	<!--<input id="eval" type="button" value="Evaluate" onclick="startId()"/></center><br>-->
+              		<br>Result:<br>
+              		<p id="resultPlacement1"></p>
+              		<p id="resultPlacement2"></p>
+              		<font color="white"><p id="resultPlacement3"></p></font>
+              		<p id="resultPlacement4"></p>
+              		<p id="resultPlacement5"></p>
+        	</form>-->
+        <!-- //This is the main body where the color is and where the calc buttons were. -->
         <!--
         <div class="calculator demo">
             <div class="u4 display">
