@@ -6,14 +6,24 @@ h1 {
     text-align: center;
     top: 50%;
     width: 100%;
+    text-decoration: none;
 }
 @font-face {
   font-family: 'Dual-300';
   src:  url('Dual-300.otf');
 }div {
 	font-family: Dual-300;
+    text-decoration: none;
 }
 c1{
 	color: #1272DB;
 	font-size: 34px;
+    text-decoration: none;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #1272DB;
+	font-size: 34px;
+    text-decoration: none;
 }
