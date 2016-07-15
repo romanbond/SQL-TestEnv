@@ -124,7 +124,7 @@ var MFund = function(){
 		//User input parsed to an int
 		var deposit = parseInt(document.getElementById("numEntry1").value);
 		var maxamount = parseInt(document.getElementById("numEntry2").value);
-		document.getElementById("functionOneResultOne").innerHTML = (deposit + " - " + maxamount);
+		document.getElementById("functionOneResultOne").innerHTML = ("d:"+deposit + " -- m:" + maxamount);
 		//alert(deposit + " - " + maxamount);
 		var years = 0;
 		for (var money = deposit; money < maxamount; money += OneYearDiv){
