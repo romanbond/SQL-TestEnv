@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <title>Calculator</title>
+      <link href="page.css" rel="stylesheet" />
+      <link href="../style.css" rel="stylesheet" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body class="body">
+      <style>
+
+      </style>
+
+      <header class="header">
+            <h1 class="h1"><span class="bold">NodeS</span> and <span class="bold">TARs</span> JavaScript Engine</h1>
+      </header>
+      <article class="article">
+            <div class="calculator demo">
+                  <script type="text/javascript" src="calc.js"></script>
+        <!--
+        Throw some color in here.
+        //beta color
+        <div class="superheavy"><center>THIS IS A BETA.</center></div>-->
+        <br><font color="white"><h1 class="h1"><center>Dev Cal</center></h1></font><br>
+	  	<form>
+                  <center><input type="text" name="number1"id="numEntry1"placeholder='Enter Value 1'></center><br>
+
+                  <center><input type="text" name="number2"id="numEntry2"placeholder='Enter Value 2'></center><br><br>
+                  <center><select id="selection">
+                        <option value="NodeS">NodeS</option>
+                        <option value="TARs">TARs</option>
+                        <option value="Fund">Fund</option>
+                  </select>
+                  <input id="eval" type="button" value="Eval" class="u1 button button-blue" onclick="startId()"/></center><br>
+			        <br>Result Console:<br>
+              		<font color="#00FF00"><p id="resultPlacement1"></p></font>
+              		<font color="#00FF00"><p id="resultPlacement2"></p></font>
+              		<font color="#00FF00"><p id="resultPlacement3"></p></font>
+              		<font color="#FFFFFF"><p id="resultPlacement4"></p></font>
+              		<font color="#00FF00"><p id="resultPlacement5"></p></font>
+                    <font color="#00FF00"><p id="links"></p><font>
+        </form>
+    </article>
+    <footer class="footer">
+        <p class="p">This is a beta. Cross browser support. Network mapping soon.</p>
+        <p class="p">Crafted by <a class="link" target="_blank" href="http://groslen.com">Roman Bond</a> &middot; <a class="link" target="_blank" href="https://github.com/romanbond/">GitHub</a></p>
+    </footer>
+
+
+
+    <script src="../knockout-2.1.0.js"></script>
+    <script src="../calculator.min.js"></script>
+
+</body>
+</html>

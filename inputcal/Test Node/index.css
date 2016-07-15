@@ -1,0 +1,40 @@
+h1 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    text-decoration: none;
+}
+@font-face {
+  font-family: 'Dual-300';
+  src:  url('Dual-300.otf');
+}div {
+	font-family: Dual-300;
+    text-decoration: none;
+}
+c1{
+    /* #1272DB */
+    	color: #1684FB;
+	font-size: 90px;
+    text-decoration: none;
+}
+
+c2{
+    /* Dash Color */
+    	color: #6C737E;
+	font-size: 90px;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    /* #1272DB */
+    	color: #1684FB;
+	font-size: 90px;
+    text-decoration: none;
+}
+/* Use this for literally everything http://www.colorhunt.co/ */
