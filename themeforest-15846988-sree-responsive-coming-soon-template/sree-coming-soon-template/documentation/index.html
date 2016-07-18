@@ -1,0 +1,455 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>sree | documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 80px;
+            padding-bottom: 20px;
+        }
+
+        .affix {
+            top: 80px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-white-3.png" alt="sree" height="30" />
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="navbar-form navbar-right">
+                    <a href="https://salttechno.ticksy.com/" target="_blank" class="btn btn-default">Online Support</a>
+                </div>
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" style="position: relative;">
+            <div class="col-md-3" >
+                <div class="list-group table-of-contents">
+                    <a class="list-group-item" href="#html">Folder & HTML Structure</a>
+                    <a class="list-group-item" href="#css">CSS, Fonts & Javascripts</a>
+                    <a class="list-group-item" href="#colors">Color Schemes & Headers</a>
+                    <a class="list-group-item" href="#mailchimp">Mailchimp Setup</a>
+                    <a class="list-group-item" href="#contact">Contact Us Form Setup</a>
+                    <a class="list-group-item" href="#countdown">Countdown Setup</a>
+                    <a class="list-group-item" href="#rotator">Word Rotator Setup</a>
+                    <a class="list-group-item" href="#typer">Word Typer Setup</a>
+                    <a class="list-group-item" href="#images">Static & Slideshow Images</a>
+                    <a class="list-group-item" href="#video">Change Video</a>
+                    <a class="list-group-item" href="#icons">Changing Icons</a>
+                    <a class="list-group-item" href="#credits">Credits</a>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="jumbotron" id="home">
+                    <div class="container">
+                        <h1>Thank You!</h1>
+                        <p>Thank you for purchasing sree - coming soon site template. This documentation will help you understand basic structure of the template. If you have any questions that are beyond the scope of this help file, you can create support
+                            ticket at
+                            <a href="https://salttechno.ticksy.com/" target="_blank">https://salttechno.ticksy.com/</a> or email us on support@themesease.com.</p>
+                        <p>
+                            <small class="mr10">Created on: 03-June-2016</small>
+                            <small class="mr10">Version: 1.3</small>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="alert alert-dismissible alert-warning">
+                    <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                    <h4>For Quicker Support: </h4>
+                    <p>We have dedicated team for support. For quicker response, we request you to use online ticket system at <a href="https://salttechno.ticksy.com/" target="_blank">https://salttechno.ticksy.com/</a>. Email support & comment on themeforest might take some extra time for turnaround.</p>
+                </div>
+
+                <div class="pt60" id="html">
+                    <h4>Folder & HTML Structure</h4>
+                    <p>sree is one page coming soon HTML site template. So, mostly you will need one .html file & supporting .css, .js, .php files with some images. Structure of your the template would look like following image.</p>
+                    <img src="img/folder-structure.png" alt="FOlder Structure" width="280">
+                    <ul class="mt20">
+                        <li>All .html files are in the root directory.</li>
+                        <li>Separete folders are created for .css, .js files & for images.</li>
+                        <li>All fonts other than web-fonts are located in fonts folder.</li>
+                        <li>Mailgun folder is for sending transactional emails.</li>
+                        <li>Important .php files for sending emails are located in root folder.</li>
+                    </ul>
+                    <h6 class="mt30">What do you need to upload to server?</h6>
+                    <p>You will need to upload .html file along with supporting folders provided with this theme.</p>
+                    <h5 class="mt30">HTML Structure</h5>
+                    <p>We are using Bootstrap framework. So, basic HTML structure is same as it is used in Bootstrap.</p>
+                    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;!-- Bootstrap & Other CSS files --&gt;
+    &lt;/head&gt;
+    &lt;body class="light-header"&gt;
+        &lt;header&gt;
+            &lt;!-- Logo & social links in .container --&gt;
+        &lt;/header&gt;
+        &lt;nav&gt;
+            &lt;!-- Navigation Links --&gt;
+        &lt;/nav&gt;
+        &lt;div&gt;
+            &lt;!-- Home div with title & countdown --&gt;
+            &lt;!-- 'Notify Me' form --&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;!-- Features Div --&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;!-- About Us Div --&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;!-- Contact Us Div --&gt;
+        &lt;/div&gt;
+        &lt;!-- Bootstrap, jQuery & other js files --&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                    </pre>
+                </div>
+
+                <div class="pt60" id="css">
+                    <h4>CSS, Fonts & Javascripts</h4>
+                    <p>Following css files must be included in your HTML file to make this theme work. Make sure path of the css folder is mentioned correctly.</p>
+                    <pre>
+&lt;!-- ========== Bootstrap & Other CSS Files ========== --&gt;
+&lt;link rel="stylesheet" href="css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="css/bootstrap-theme.min.css"&gt;
+&lt;link rel="stylesheet" href="css/animate.min.css" media="screen"&gt;
+&lt;link rel="stylesheet" href="css/hover-min.css" media="screen"&gt;
+&lt;link rel="stylesheet" href="css/pe-icon-7-stroke.css" media="screen"&gt;
+&lt;link rel='stylesheet' href='css/sweetalert.css' type='text/css'&gt;
+&lt;link rel="stylesheet" href="css/animsition.min.css" media="screen"&gt;
+&lt;link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' type='text/css'&gt;
+&lt;link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat:400,700' type='text/css'&gt;
+&lt;link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' type='text/css'&gt;
+
+&lt;!-- ========== Main Style CSS ========== --&gt;
+&lt;link rel="stylesheet" href="css/main.css"&gt;
+                    </pre>
+                    <p>Following css files are required when you are using it. Add these files before main.css file. Comment in following code tells for what purpose that css file is:</p>
+                    <pre>
+&lt;link rel="stylesheet" href="css/morphext.css" media="screen"&gt;&lt;!-- For word rotating --&gt;
+&lt;link rel="stylesheet" href="css/jquery.countdown.css" media="screen"&gt;&lt;!-- For countdown --&gt;
+&lt;link rel="stylesheet" href="css/pe-helper.css" media="screen"&gt;&lt;!-- For spinning icon --&gt;
+                    </pre>
+                    <p>General css classes:</p>
+                    <ul>
+                        <li><code>.light-header</code>: For light header</li>
+                        <li><code>.dark-header</code>: For dark header</li>
+                        <li><code>.animsition</code>: For animated page transition. Generally added to body tag. You can read more at <a href="http://git.blivesta.com/animsition/" target="_blank">http://git.blivesta.com/animsition/</a>.</li>
+                        <li><code>.header</code>: For placing Logo & social media links</li>
+                        <li><code>.container</code>, <code>.row</code>, <code>.col-*-*</code>: Bootstrap classes for layout & grid. Read more on <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></li>
+                        <li><code>.mb*</code>: For margin-bottom. Eg. mb20 for <code>margin-bottom: 20px;</code></li>
+                        <li><code>.mt*</code>: For margin-top. Eg. mb20 for <code>margin-top: 20px;</code></li>
+                        <li><code>.pb*</code>: For padding-bottom. Eg. mb20 for <code>padding-bottom: 20px;</code></li>
+                        <li><code>.pt*</code>: For padding-top. Eg. mb20 for <code>padding-top: 20px;</code></li>
+                        <li><code>.trans</code>: For all CSS transitions</li>
+                        <li><code>.cd-section</code>: For one section with full height on medium & large monitors</li>
+                        <li><code>.sr-btn</code>: For styled button</li>
+                        <li><code>.sr-btn.sr-primary</code>: For styled button with primary color</li>
+                    </ul>
+
+                    <h5 class="mt30">Fonts</h5>
+                    We have used 2 different web fonts for text in this theme. 'Montserrat' is used for headlines (slider / particle section) and 'Roboto Slab' is used everywhere else. Following two lines of code fetch web fonts from Google.
+                    <pre>
+&lt;link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' type='text/css'&gt;
+&lt;link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat:400,700' type='text/css'&gt;
+                    </pre>
+
+                    We have used two different font icons for wider variety of icons. Following two lines are for these font icons:
+                    <pre>
+&lt;link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' type='text/css'&gt;
+&lt;link rel="stylesheet" href="css/pe-icon-7-stroke.css" media="screen"&gt;
+                    </pre>
+
+                    <h5 class="mt30">Javascripts</h5>
+                    <p>Following js files are required to be added to your HTML page to make this theme work.</p>
+                    <pre>
+&lt;!-- ========== Include jQuery ========== --&gt;
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- ========== Other JS ========== --&gt;
+&lt;script src="js/vendor/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/particles.min.js"&gt;&lt;/script&gt; &lt;!-- Required for particles background --&gt;
+&lt;script src="js/morphext.min.js"&gt;&lt;/script&gt; &lt;!-- For rotating words --&gt;
+&lt;script src="js/jquery.plugin.min.js"&gt;&lt;/script&gt; &lt;!-- For countdown --&gt;
+&lt;script src="js/jquery.countdown.min.js"&gt;&lt;/script&gt; &lt;!-- For countdown --&gt;
+&lt;script src="js/jquery.form.min.js"&gt;&lt;/script&gt; &lt;!-- For Ajax form submission --&gt;
+&lt;script src="js/jquery.ajaxchimp.min.js"&gt;&lt;/script&gt; &lt;!-- For ajax Mailchimp submission --&gt;
+&lt;script src="js/sweetalert.min.js"&gt;&lt;/script&gt; &lt;!-- For js alerts --&gt;
+&lt;script src="js/animsition.min.js"&gt;&lt;/script&gt; &lt;!-- For page transitions --&gt;
+
+&lt;!-- ========== Main js file ========== --&gt;
+&lt;script src="js/main.js"&gt;&lt;/script&gt; &lt;!-- Main custom javascript file --&gt;
+                    </pre>
+                </div>
+
+
+                <div class="pt60" id="colors">
+                    <h4>Color Schemes & Headers</h4>
+                    <p>We have included 8 different color schemes with this theme. You can simply change css file & apply new color scheme to your website.</p>
+                    <p>CSS file name tells you which color it is. You have <code>alizarin.css</code>, <code>carrot.css</code>, <code>midnightblue.css</code>, <code>nephritis.css</code>, <code>peterriver.css</code>, <code>sunflower.css</code>, <code>torquoise.css</code> & <code>wisteria.css</code>. Just add this CSS file instead of main.css to apply new color scheme.</p>
+                    <p>If you know how to use Sass language, you can change the color scheme to any color. <code>main.scss</code> file is also included in css folder. Just change <code>$panel-primary</code> variable value to your choice of color and compile it to main.css file.</p>
+
+                    <h5 class="mt30">Headers</h5>
+                    <p>We have added two different headers in this theme. Just add <code>dark-header</code> class to body tag to change header to dark colored. Use two different logos to make it more awesome. If you want normal light header keep <code>light-header</code> at body tag.</p>
+                </div>
+
+                <div class="pt60" id="mailchimp">
+                    <h4>Mailchimp Setup</h4>
+                    <div class="alert alert-dismissible alert-warning">
+                        <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                        <h4>Warning!</h4>
+                        <p>Before uploading template to your hosting server, make sure you have done correct setup for <a href="#mailchimp">Maichimp Subscription list</a> & <a href="#contact">contact us form</a>. It is easy and properly documented in this file.</p>
+                    </div>
+                    <p>Mailchimp setup is easy but mandatory step. If you already have Maichimp account & a list, just go to sign up forms for the particular list. Get form action URL from embedded forms section. Paste this in following section of script:</p>
+                    <pre>
+$('.mc-form').ajaxChimp({
+    url: '', //Enter your URL here
+    callback: callbackFunction
+});
+                    </pre>
+                    <p class="mt30">Steps:</p>
+                    <ol>
+                        <li>Signup / Login on Mailchimp.</li>
+                        <li>Create a list.</li>
+                        <li>For this list, go to 'Signup Forms' section.</li>
+                        <li>Go to 'Embedded Forms'.</li>
+                        <li>
+                            Copy action url from the form. [Shown in below gif image.]<br>
+                            <img src="img/mailchimp.gif" alt="Mailchimp" >
+                        </li>
+                        <li>
+                            Paste it in your html file in scripts section.<br>
+                            <img src="img/mailchimp-script.png" alt="Mailchimp" width="400">
+                        </li>
+                    </ol>
+                    <p>Make sure you have added following two js files.</p>
+                    <pre>
+&lt;script src="js/jquery.ajaxchimp.min.js"&gt;&lt;/script&gt; &lt;!-- For ajax Mailchimp submission --&gt;
+&lt;script src="js/sweetalert.min.js"&gt;&lt;/script&gt; &lt;!-- For js alerts --&gt;
+                    </pre>
+                </div>
+
+
+                <div class="pt60" id="contact">
+                    <h4>Contact Us Form Setup</h4>
+                    <p>We have integrated mailgun for uninterrupted transactional emails. You can use this free service for 10,000 emails every month. Visit mailgun.com for more information.</p>
+                    <p>It is already integrated and ready to use. You just need to put your <b>domain details & api-key</b> in settings file.</p>
+                    <ol>
+                        <li>Create account on mailgun.com for free.</li>
+                        <li>You can use sandbox domain that you get or you can add your own domain with some simple steps provided at their website.</li>
+                        <li>You will need two important factors from your mailgun account. 1. Domain Name. 2. API Key</li>
+                        <li>Click on 'domains' link from navigation.</li>
+                        <li>Select the sandbox domain.</li>
+                        <li>On this screen on mailgun.com, you will get both details.</li>
+                        <li>Open mailgun-settings.php file which is included in your theme's downloaded folder.</li>
+                        <li>
+                            Paste mailgun domain name & API key here.
+                            <img src="img/mailgun-settings.png" alt="Mailgun Settings" width="600">
+                        </li>
+                        <li>
+                            Enter your email address in <code>$yourEmail</code> variable, where you want to receive emails from website. Replace <code>support@themesease.com</code> with your email id.
+                            <img src="img/mailgun-settings-2.png" alt="Mailgun Settings" width="800">
+                        </li>
+                        <li>
+                            You can change additional settings for email in same file. These are optional changes.
+                            <img src="img/mailgun-settings-3.png" alt="Mailgun Settings" width="800">
+                        </li>
+                    </ol>
+                    <p>Make sure you have uploaded 'Mailgun' folder provided with your theme download.</p>
+                </div>
+
+                <div class="pt60" id="countdown">
+                    <h4>CountDown Setup</h4>
+                    <p>Adding countdown is easy. Make sure you have added following css in <code>head</code>: </p>
+                    <pre>
+&lt;link rel="stylesheet" href="css/jquery.countdown.css" media="screen"&gt;
+                    </pre>
+                    <p>Make sure you have added following js files at end of <code>body</code>.</p>
+                    <pre>
+&lt;script src="js/jquery.plugin.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.countdown.min.js"&gt;&lt;/script&gt;
+                    </pre>
+                    Below these lines, add following code in script tag: [Refer original files from download for reference.]
+                    <pre>
+$('#countdown').countdown({until: new Date(2016, 12-1, 01), format: 'wdHMs'});
+                    </pre>
+                    <div class="alert alert-dismissible alert-danger">
+                        <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                        <h4>Important!</h4>
+                        <p>A note on Date - the JavaScript Date constructor expects the year, month, and day as parameters. However, the month ranges from 0 to 11. To make explicit what date is intended (does a month of 3 mean March or April?) I specify the month from 1 to 12 and manually subtract the 1. Thus the above date denotes 01 December, 2016.</p>
+                    </div>
+                    <p>Refer <a href="http://keith-wood.name/countdown.html" target="_blank">http://keith-wood.name/countdown.html</a> for more information and settings.</p>
+                </div>
+
+
+                <div class="pt60" id="rotator">
+                    <h4>Word Rotator Setup</h4>
+                    <p>We use <a href="http://morphext.fyianlai.com/" target="_blank">morphext</a> library for rotating words. jQuery and animate.css files are required for this one to work. Make sure you have included both of them with morphext.css and morphext.min.js.</p>
+                    <p>Add this line where you want to show word rotator:</p>
+                    <pre>
+&lt;h1 class="headline"&gt;We believe in &lt;span id="word-rotate"&gt;Perfection, Create, Impress, Enthrall&lt;/span&gt;. &lt;small&gt;We are coming soon.&lt;/small&gt;&lt;/h1&gt;
+                    </pre>
+                    <p>Words mentioned within <code>id="word-rotate"</code> and separated by comma will rotate when you add following script:</p>
+                    <pre>
+// For Word Rotator
+$("#word-rotate").Morphext({
+    animation: "flipInX",
+    separator: ",",
+    speed: 4000
+});
+                    </pre>
+                    <p>You can use different animations with these words easily. Just mention animation in above code in-place of <code>flipInX</code>. You can use <code>bounce</code>, <code>flash</code>, <code>pulse</code>, <code>shake</code> etc. Refer <a href="http://morphext.fyianlai.com/" target="_blank">http://morphext.fyianlai.com/</a> for more details.</p>
+                </div>
+
+
+                <div class="pt60" id="typer">
+                    <h4>Word Typer Setup</h4>
+                    <p>We use <a href="https://github.com/jasondavis/jquery.typer.js" target="_blank">typer.js</a> for typing effects. jQuery is required to be added before this script to make it work.</p>
+                    <p>Add following js file after jQuery for using this typer.</p>
+                    <pre>
+&lt;script src="js/typer.js"&gt;&lt;/script&gt;
+                    </pre>
+                    <p>You can also refer <a href="http://codepen.io/jasondavis/pen/fHdAt" target="_blank">this</a> codepen url to understand how to use it. </p>
+                    <p>Now let's say you want to loop over a set of strings for the typing effect. Easy!</p>
+                    <pre>
+&lt;h1 class="headline"&gt;We believe in &lt;span id="typer" class="typer" data-typer-targets="Perfection, Create, Impress, Enthrall"&gt;&lt;/span&gt;. &lt;small&gt;We are coming soon.&lt;/small&gt;&lt;/h1&gt;
+
+//In script
+$('[data-typer-targets]').typer();
+                    </pre>
+                </div>
+
+                <div class="pt60" id="images">
+                    <h4>Static & Slideshow Images</h4>
+                    <p>You can easily change images in the background slideshow. We use <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">backstretch</a> library for background slideshow. </p>
+                    <p>Don't forget to add <code>&lt;script src="js/jquery.backstretch.min.js"&gt;&lt;/script&gt;</code>. To change images, use below code:</p>
+                    <pre>
+/*
+* Here is an example of how to use Backstretch as a slideshow.
+* Just pass in an array of images, and optionally a duration and fade value.
+*/
+
+// Duration is the amount of time in between slides,
+// and fade is value that determines how quickly the next image will fade in
+$.backstretch([
+  "http://dl.dropbox.com/u/515046/www/outside.jpg"
+, "http://dl.dropbox.com/u/515046/www/garfield-interior.jpg"
+, "http://dl.dropbox.com/u/515046/www/cheers.jpg"
+], {duration: 3000, fade: 750});
+                    </pre>
+                    <p>Just put your image urls replacing above ones. This script is in script section at end of the HTML file.</p>
+
+                    <h5 class="mt30">Static Image</h5>
+                    <p>Default static image is put in css file. You can change it with below code in <code>style</code> section in <code>head</code> of the html file.</p>
+                    <pre>
+&lt;style media="screen"&gt;
+    /*=== Use this code to change background image ===*/
+    /*.static-img-div{
+        background-image: url(img/Image_03.jpg);
+    }*/
+&lt;/style&gt;
+                    </pre>
+                    <p>This code is already placed in <code>static-rotator.html</code>, <code>static-static.html</code>, <code>static-typer.html</code> files.</p>
+                </div>
+
+                <div class="pt60" id="video">
+                    <h4>Changing Video</h4>
+                    <p>Background video can be changed easily from HTML file itself. Just replace the YouTube video code in the <code>script</code> tag at the end of file.</p>
+                    
+                </div>
+
+                <div class="pt60" id="icons">
+                    <h4>Changing Icons</h4>
+                    <p>We have used two different font icons for wider variety of icons. Following two lines are for these font icons:</p>
+                    <pre>
+&lt;link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' type='text/css'&gt;
+&lt;link rel="stylesheet" href="css/pe-icon-7-stroke.css" media="screen"&gt;
+                    </pre>
+                    <p>List of icons and classes to be used for them can be found on <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">http://fortawesome.github.io/Font-Awesome/icons/</a> and <a href="http://themes-pixeden.com/font-demos/7-stroke/index.html" target="_blank">http://themes-pixeden.com/font-demos/7-stroke/index.html</a>.</p>
+                    <p>For changing icons in navigation bar on right side, change content in css file. <code>.cd-vertical-nav a#home::after, .cd-vertical-nav a#features::after, .cd-vertical-nav a#about::after, .cd-vertical-nav a#contact::after</code> are css selectors used in css file.</p>
+                </div>
+
+                <div class="pt60" id="credits">
+                    <h4>Credits</h4>
+                    <ul>
+                        <li>jQuery - <a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+                        <li>Bootstrap - <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a> </li>
+                        <li>animate.css - <a href="https://daneden.github.io/animate.css/" target="_blank">https://daneden.github.io/animate.css/</a></li>
+                        <li>morphext - <a href="http://morphext.fyianlai.com/" target="_blank">http://morphext.fyianlai.com/</a></li>
+                        <li>hover.css - <a href="http://ianlunn.github.io/Hover/" target="_blank">http://ianlunn.github.io/Hover/</a></li>
+                        <li>jQuery CountDown - <a href="http://keith-wood.name/countdown.html" target="_blank">http://keith-wood.name/countdown.html</a></li>
+                        <li>Stroke 7 icons - <a href="http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set" target="_blank">http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set</a></li>
+                        <li>Sweet Alert - <a href="http://t4t5.github.io/sweetalert/" target="_blank">http://t4t5.github.io/sweetalert/</a></li>
+                        <li>animsition - <a href="http://git.blivesta.com/animsition/" target="_blank">http://git.blivesta.com/animsition/</a></li>
+                        <li>FontAwesome - <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">http://fortawesome.github.io/Font-Awesome/</a></li>
+                        <li>particles.js - <a href="http://vincentgarreau.com/particles.js/" target="_blank">http://vincentgarreau.com/particles.js/</a></li>
+                        <li>typer.js - <a href="https://github.com/jasondavis/jquery.typer.js" target="_blank">https://github.com/jasondavis/jquery.typer.js</a></li>
+                        <li>backstretch - <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">http://srobbin.com/jquery-plugins/backstretch/</a></li>
+                        <li>AjaxChimp - <a href="https://github.com/scdoshi/jquery-ajaxchimp" target="_blank">https://github.com/scdoshi/jquery-ajaxchimp</a></li>
+                        <li>jQuery.Form - <a href="http://malsup.com/jquery/form/" target="_blank">http://malsup.com/jquery/form/</a></li>
+                        <li>Pixabay - <a href="https://pixabay.com" target="_blank">https://pixabay.com</a></li>
+                        <li>Images - <a href="http://picalls.com/constellation/" target="_blank">http://picalls.com/constellation/</a></li>
+                    </ul>
+                </div>
+
+                <!-- <div class="pt80" id="" style="height: 500px;">
+
+                </div> -->
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p>&copy; Salt Web Technologies Pvt Ltd 2016</p>
+        </footer>
+    </div>
+    <!-- /container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
