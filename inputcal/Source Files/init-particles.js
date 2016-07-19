@@ -2,9 +2,9 @@ $(function($) {
 
     "use strict";
 
-    // Initiate particlesJS - We don't show particles on small devices for better performance
+    // Initiate particlesJS - We dont show particles on small devices for better performance width was 991
     var width = $(window).width();
-    if (width >= 991) {
+    if (width >= 9) {
         particlesJS("home",
           {
             "particles": {
