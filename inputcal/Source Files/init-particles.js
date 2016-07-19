@@ -44,7 +44,7 @@ $(function($) {
                 }
               },
               "size": {
-                "value": 3,
+                "value": 30,
                 "random": true,
                 "anim": {
                   "enable": false,
