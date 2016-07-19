@@ -605,7 +605,8 @@ color:#000;
 
 .particles-div {
 background-color:#1d6fa5;
-background-image:linear-gradient(#1d6fa5,#3498db);
+/*        First one is the top, second is the bottom         */
+background-image:linear-gradient(#1684FB,#1684FB);
 position:relative;
 z-index:1;
 }
