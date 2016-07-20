@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <title>Calculator</title>
+      <link href="page.css" rel="stylesheet" />
+      <link href="../style.css" rel="stylesheet" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title></title>
+      <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/demo.css">
+      <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+      <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
+      <script type="text/javascript" src="../plugin/ttw-music-player-min.js"></script>
+      <script type="text/javascript" src="js/myplaylist.js"></script>
+      <h1 class="h1"><span class="bold">NodeS</span> and <span class="bold">TARs</span> JavaScript Engine</h1>
+      <script type="text/javascript">
+          $(document).ready(function(){
+              var description = 'Discription Here.';
+
+              $('body').ttwMusicPlayer(myPlaylist, {
+                  autoPlay:false,
+                  description:description,
+                  jPlayer:{
+                      swfPath:'../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                  }
+              });
+          });
+          </script>
+          <div id="title"></div>
+</head>
+<body class="body">
+      <style>
+
+      </style>
+<div id="title"></div>
+
+</body>
+
+      <article class="article">
+            <div class="calculator demo">
+                  <script type="text/javascript" src="calc.js"></script>
+        <!--
+        Throw some color in here.
+        //beta color
+        <div class="superheavy"><center>THIS IS A BETA.</center></div>-->
+        <br><font color="white"><h1 class="h1"><center>Dev Cal</center></h1></font><br>
+	  	<form>
+
+
+
+
+        </form>
+    </article>
+    <footer class="footer">
+        <p class="p">This is a beta. Cross browser support. Network mapping soon.</p>
+        <p class="p">Crafted by <a class="link" target="_blank" href="http://groslen.com">Roman Bond</a> &middot; <a class="link" target="_blank" href="https://github.com/romanbond/">GitHub</a></p>
+    </footer>
+
+
+
+    <script src="../knockout-2.1.0.js"></script>
+    <script src="../calculator.min.js"></script>
+
+
+</html>
