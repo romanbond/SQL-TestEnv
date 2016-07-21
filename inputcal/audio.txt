@@ -1,3 +1,9 @@
 https://www.sitepoint.com/10-jquery-html5-audio-players/
 http://www.codebasehero.com/
 http://boulevardjs.com/home
+
+Side bar
+https://codepen.io/JFarrow/pen/fFrpg
+http://semantic-ui.com/modules/sidebar.html
+http://www.w3schools.com/howto/howto_js_sidenav.asp
+http://materializecss.com/side-nav.html //this is good
