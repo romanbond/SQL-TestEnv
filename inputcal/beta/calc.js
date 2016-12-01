@@ -132,8 +132,12 @@ function nodeS (){
 		var zW = toWords(zR);
 	    text += yW+ " -- links -> " + zW + "<br>";
 	};
-	alert(text)
-	//document.getElementById("links").innerHTML = text;
+	function copyToClipboard(text) {
+    		window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+	}
+	//copyToClipboard(text);
+	//alert(text)
+	document.getElementById("links").innerHTML = text;
 };
 // --- End of nodeS --- //
 

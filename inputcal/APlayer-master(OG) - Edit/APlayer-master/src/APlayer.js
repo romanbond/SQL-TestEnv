@@ -31,14 +31,14 @@ class APlayer {
         this.isMobile = /mobile/i.test(window.navigator.userAgent);
         // compatibility: some mobile browsers don't suppose autoplay
         if (this.isMobile) {
-            option.autoplay = false;
+            option.autoplay = true;
         }
 
         // default options
         const defaultOption = {
             element: document.getElementsByClassName('aplayer')[0],
             narrow: false,
-            autoplay: false,
+            autoplay: true,
             mutex: true,
             showlrc: 0,
             theme: '#b7daff',
@@ -525,7 +525,7 @@ class APlayer {
             });
 
             // multiple music play
-            this.ended = false;
+            this.ended = true;
             if (this.multiple) {
                 this.audio.addEventListener('ended', () => {
                     if (this.isMobile) {
