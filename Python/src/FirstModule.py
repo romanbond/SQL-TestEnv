@@ -10,8 +10,8 @@ def addFixedValue(a):
         y = 5
         return y +a
 
-print add(1,2)
-print addFixedValue(1)
+#print add(1,2)
+#print addFixedValue(1)
 
 def loopdaloop(a,b):
     start = a
@@ -24,14 +24,16 @@ def loopdaloop(a,b):
 loopdaloop(2,500)
 
 def googleplex(gp,n):
+    
     for i in range(n):
         gp=gp**10
         print gp
     return gp
 
-bigN = googleplex(10,4)
-bigN = str(bigN)
-print len(bigN)
+#inin = input('Put number here: ')
+#inin = int(inin)
+print (googleplex(10,int(input('Put number here: '))))
+ 
 
 """
 from decimal import Decimal, getcontext
