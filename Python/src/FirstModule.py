@@ -3,6 +3,7 @@ Created on Dec 1, 2016
 
 @author: p18enviroment
 '''
+
 def add(a,b):
     return a+b
 
@@ -10,15 +11,12 @@ def addFixedValue(a):
         y = 5
         return y +a
 
-#print add(1,2)
-#print addFixedValue(1)
-
 def loopdaloop(a,b):
     start = a
     for i in range(b):
         i=i+1
         start = start*a
-        print start
+        #print start
     return start
 
 loopdaloop(2,500)
@@ -27,21 +25,22 @@ def googleplex(gp,n):
     
     for i in range(n):
         gp=gp**10
-        print gp
+        #print gp
     return gp
 
-#inin = input('Put number here: ')
-#inin = int(inin)
-print (googleplex(10,int(input('Put number here: '))))
- 
+def fibinoci():
+    userInput = input("Enter the number of loops: ")
+    userInput = int(userInput)
+    array = [1]
+    for i in range(userInput):
+        array.append(array[i-1]+array[i])
+        print(array[i])
+    print(array[i])
+    #again = input("Again?   ")
 
-"""
-from decimal import Decimal, getcontext
-getcontext().prec=1000
-print sum(1/Decimal(16)**k * 
-          (Decimal(4)/(8*k+1) - 
-           Decimal(2)/(8*k+4) - 
-           Decimal(1)/(8*k+5) -
-           Decimal(1)/(8*k+6)) for k in range(1000))
-"""
+
+fibinoci()
+
+
+
 
