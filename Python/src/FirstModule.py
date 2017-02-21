@@ -31,12 +31,14 @@ def googleplex(gp,n):
 
 def fibinoci():
     userInput = input("Enter the number of loops: ")
-    userInput = int(userInput)
-    array = [1]
-    for i in range(userInput):
-        array.append(array[i-1]+array[i])
-        print(array[i])
-    print(array[i])
+    userInput = str(userInput)
+    userInput = len(userInput)
+    print(userInput)
+    #array = [1]
+    #for i in range(userInput):
+        #array.append(array[i-1]+array[i])
+        #print(array[i])
+    #print(array[i])
     #again = input("Again?   ")
 
 
